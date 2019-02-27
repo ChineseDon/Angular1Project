@@ -1,0 +1,12 @@
+<div class="page1">
+    <p ng-bind="info"></p>
+    <p id="content1"></p>
+    <p>这是page2</p>
+    <a ui-sref='page1'>跳转到page1</a>
+    <ul>
+    	<li><a ui-sref='page2.child1'>跳转到child1</a></li>
+    	<li><a ui-sref='page2.child2'>跳转到child2</a></li>
+    	<li><a ui-sref='page2.child3'>跳转到child3</a></li>
+    </ul>
+    <div ui-view></div>
+</div>
